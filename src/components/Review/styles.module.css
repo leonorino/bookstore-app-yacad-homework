@@ -1,0 +1,10 @@
+.container {
+  background-color: white;
+  border-radius: 1em;
+  padding: 20px;
+}
+
+.topRow {
+  display: flex;
+  justify-content: space-between;
+}
