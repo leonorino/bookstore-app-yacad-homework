@@ -21,3 +21,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# sublime project
+*.sublime-project
+*.sublime-workspace
+
+# temporarily ignored
+store/

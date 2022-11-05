@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-import { Counter } from "../Buttons/Counter";
+import { Counter } from "../Counter/Counter";
 import { BookLabel } from "../BookLabel/BookLabel";
 
 export const Book = ({ book, alignment }) => {

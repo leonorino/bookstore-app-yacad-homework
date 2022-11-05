@@ -1,0 +1,12 @@
+.inactive {
+  color: gray;
+  cursor: default;
+}
+
+.active {
+  color: black;
+}
+
+.container {
+  font-size: 2em;
+}
