@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { CounterButton } from "../CounterButton/CounterButton";
+import { BsDashSquareFill, BsPlusSquareFill } from "react-icons/bs";
 import styles from "./styles.module.css";
 
 export const Counter = () => {
@@ -12,8 +13,12 @@ export const Counter = () => {
   }
 
   return <div className={styles.container}>
-    <CounterButton type={0} onClick={decreaseLambda} isActive={currentCount !== 0} />
+    <CounterButton onClick={decreaseLambda} isActive={currentCount !== 0}>
+      <BsDashSquareFill/>
+    </CounterButton>
     <p className={styles.label}>{currentCount}</p>
-    <CounterButton type={1} onClick={increaseLambda} isActive={true} />
+    <CounterButton onClick={increaseLambda} isActive={true}>
+      <BsPlusSquareFill/>
+    </CounterButton>
   </div>;
 }
